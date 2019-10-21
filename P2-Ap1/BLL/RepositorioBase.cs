@@ -15,7 +15,7 @@ namespace P2_Ap1.BLL
 
         public RepositorioBase()
         {
-            contexto = new Contexto();
+            contexto = new Contexto(); 
         }
         public virtual T Buscar(int id)
         {
