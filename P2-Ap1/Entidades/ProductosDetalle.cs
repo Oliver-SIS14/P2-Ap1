@@ -16,6 +16,11 @@ namespace P2_Ap1.Entidades
         public decimal Precio { get; set; }
         public decimal Importe { get; set; }
 
+        public ProductosDetalle()
+        {
+
+        }
+
         public ProductosDetalle(int id, int Facturaid, string Categoria, int Cantidad, decimal Precio, decimal Importe)
         {
             this.id = id;
