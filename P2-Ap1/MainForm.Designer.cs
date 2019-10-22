@@ -30,6 +30,7 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.registrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,10 +51,18 @@
             // registrosToolStripMenuItem
             // 
             this.registrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.facturacionToolStripMenuItem,
             this.categoriasToolStripMenuItem});
             this.registrosToolStripMenuItem.Name = "registrosToolStripMenuItem";
             this.registrosToolStripMenuItem.Size = new System.Drawing.Size(67, 20);
             this.registrosToolStripMenuItem.Text = "Registros";
+            // 
+            // facturacionToolStripMenuItem
+            // 
+            this.facturacionToolStripMenuItem.Name = "facturacionToolStripMenuItem";
+            this.facturacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.facturacionToolStripMenuItem.Text = "Facturacion";
+            this.facturacionToolStripMenuItem.Click += new System.EventHandler(this.FacturacionToolStripMenuItem_Click);
             // 
             // categoriasToolStripMenuItem
             // 
@@ -101,6 +110,7 @@
         private System.Windows.Forms.ToolStripMenuItem categoriasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem categoriasToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem facturacionToolStripMenuItem;
     }
 }
 

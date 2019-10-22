@@ -19,6 +19,14 @@ namespace P2_Ap1
             InitializeComponent();
         }
 
+
+        private void FacturacionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form formulario = new RegistroFacturacion();
+            formulario.MdiParent = this;
+            formulario.Show();
+        }
+
         private void CategoriasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form formulario = new RegistroCategorias();

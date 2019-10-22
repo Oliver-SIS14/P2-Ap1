@@ -27,14 +27,14 @@ namespace P2_Ap1.UI.Registros
         {
             Categorias categorias = new Categorias();
 
-            categorias.Categoriaid = Convert.ToInt32(IDNumericUpDown.Value);
+            categorias.id = Convert.ToInt32(IDNumericUpDown.Value);
             categorias.Descripcion = DescripcionTextBox.Text;
 
             return categorias;
         }
         public void LlenarCampo(Categorias categoria)
         {
-            IDNumericUpDown.Value = categoria.Categoriaid;
+            IDNumericUpDown.Value = categoria.id;
             DescripcionTextBox.Text = categoria.Descripcion;
         }
 

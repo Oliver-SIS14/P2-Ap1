@@ -8,6 +8,9 @@ namespace P2_Ap1.Entidades
 {
     public class Categorias
     {
+
+        [key]
+        public int id { get; set; }
         public int Categoriaid { get; set; }
         public string Descripcion { get; set; }
 
