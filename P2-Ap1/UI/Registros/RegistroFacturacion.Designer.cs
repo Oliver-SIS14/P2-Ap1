@@ -170,6 +170,7 @@
             // 
             this.ImporteTextBox.Location = new System.Drawing.Point(363, 39);
             this.ImporteTextBox.Name = "ImporteTextBox";
+            this.ImporteTextBox.ReadOnly = true;
             this.ImporteTextBox.Size = new System.Drawing.Size(84, 20);
             this.ImporteTextBox.TabIndex = 6;
             // 
@@ -179,7 +180,6 @@
             this.PrecioTextBox.Name = "PrecioTextBox";
             this.PrecioTextBox.Size = new System.Drawing.Size(84, 20);
             this.PrecioTextBox.TabIndex = 5;
-            this.PrecioTextBox.Text = "0";
             this.PrecioTextBox.TextChanged += new System.EventHandler(this.PrecioTextBox_TextChanged);
             // 
             // CantidadTextBox
@@ -188,7 +188,6 @@
             this.CantidadTextBox.Name = "CantidadTextBox";
             this.CantidadTextBox.Size = new System.Drawing.Size(84, 20);
             this.CantidadTextBox.TabIndex = 4;
-            this.CantidadTextBox.Text = "0";
             // 
             // CategoriasComboBox
             // 

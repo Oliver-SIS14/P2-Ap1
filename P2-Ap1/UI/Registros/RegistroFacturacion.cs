@@ -178,6 +178,14 @@ namespace P2_Ap1.UI.Registros
 
                 cargarGrid();
             }
+            decimal total = 0;
+
+            foreach (var item in this.detalle)
+            {
+                total += item.Cantidad * item.Precio;
+            }
+
+            TotalTextBox.Text = Convert.ToString(total);
         }
 
         private void AgregarButton_Click(object sender, EventArgs e)

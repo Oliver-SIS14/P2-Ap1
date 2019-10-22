@@ -28,10 +28,10 @@ namespace P2_Ap1.UI.Consultas
             {
                 switch (FiltroComboBox.SelectedIndex)
                 {
-                    case 1:
+                    case 0:
                         Listado = repo.GetList(p => true);
                         break;
-                    case 2:
+                    case 1:
                         int id = Convert.ToInt32(CriterioTextBox.Text);
                         Listado = repo.GetList(p => p.Facturaid == id);
                         break;

@@ -68,6 +68,9 @@
             // FiltroComboBox
             // 
             this.FiltroComboBox.FormattingEnabled = true;
+            this.FiltroComboBox.Items.AddRange(new object[] {
+            "Todo",
+            "ID"});
             this.FiltroComboBox.Location = new System.Drawing.Point(229, 23);
             this.FiltroComboBox.Name = "FiltroComboBox";
             this.FiltroComboBox.Size = new System.Drawing.Size(160, 21);
